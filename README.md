@@ -1,4 +1,7 @@
 # LeetcodeSolution
 solution for Leetcode  
-coding...   
+coding... 
+50.Pow(x,n)
+
+
 phy -> cs

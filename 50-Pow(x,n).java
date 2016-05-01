@@ -18,5 +18,21 @@ public class Solution {
             temp = myPow(x,n / 2);
             return  temp * temp * x;
         }//odd number
+        /* iteration
+        public void myPow(double x, int n) {
+	    double result = 1;
+	    long m = (long) ((n >= 0) ? n : -n);
+	    while (m > 0) {
+	        if ((m & 1) == 1) {   //m is odd number
+	            result *= x;
+	        }
+	        
+	        x *= x;
+	        m >>= 1;
+	    }
+	    
+	    return n >= 0 ? result : 1 / result;
+	    }
+	    */////
     }
 }

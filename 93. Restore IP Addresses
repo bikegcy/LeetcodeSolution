@@ -18,8 +18,9 @@ public class Solution {
     }
     
     public List<String> restoreIpAddresses(String s) {
-        List<String> result;
+        List<String> result = new ArrayList<String> ();
         StringBuilder sb = new StringBuilder();
         helper(s, 0, result, sb, 1);
+        return result;
     }
 }

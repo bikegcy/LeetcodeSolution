@@ -2,7 +2,7 @@
  * @ Chaoyu Gao
  * @ cgao15@ucsc.edu
  * @ LeetCodeSolution
- * @ If there are 2 ships around a certain ship, then continue.
+ * @ Silly Algorithm: If there are 2 ships around a certain ship, then continue.
  * @ If there is one ship around a certain ship, result = result + 1;if there is an alone ship, result = result + 2
  * @ Return result / 2
  */

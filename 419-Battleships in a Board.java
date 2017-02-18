@@ -1,16 +1,25 @@
-int countBattleships(char** board, int boardRowSize, int boardColSize) {
-    int result = 0;
-        for(int row = 0;row < boardRowSize;row++){
-            for(int column = 0;column < boardColSize;column++){
+/*
+ * @ Chaoyu Gao
+ * @ cgao15@ucsc.edu
+ * @ LeetCodeSolution
+ * @ If there are 2 ships around a certain ship, then continue.
+ * @ If there is one ship around a certain ship, result = result + 1;if there is an alone ship, result = result + 2
+ * @ Return result / 2
+ */
+public class Solution {
+    public int countBattleships(char[][] board) {
+        int result = 0;
+        for(int row = 0;row < board.length;row++){
+            for(int column = 0;column < board[row].length;column++){
                 if(board[row][column] == 'X'){
                     int aroundship = 0;
                     if(row > 0 && board[row - 1][column] == 'X')
                         aroundship++;
-                    if(row < (boardRowSize - 1) && board[row + 1][column] == 'X')
+                    if(row < (board.length - 1) && board[row + 1][column] == 'X')
                         aroundship++;
                     if(column > 0 && board[row][column - 1] == 'X')
                         aroundship++;
-                    if(column < (boardColSize - 1) && board[row][column + 1] == 'X')
+                    if(column < (board[row].length - 1) && board[row][column + 1] == 'X')
                         aroundship++;
                     switch(aroundship){
                         case 0:
@@ -27,4 +36,5 @@ int countBattleships(char** board, int boardRowSize, int boardColSize) {
             }//column loop
         }//row loop
         return (result >> 1);
+    }
 }

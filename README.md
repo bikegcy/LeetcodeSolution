@@ -14,6 +14,8 @@ coding...
 500.Keyboard Row   
 93.Restore IP Addresses  
 344.Reverse String  
-463.Island Perimeter     
+463.Island Perimeter  
+485.Max Consecutive Ones  
+513.Find Bottom Left Tree Value     
 
 #####phy -> cs

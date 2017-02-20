@@ -1,0 +1,67 @@
+\documentclass{article}
+\author{Chaoyu Gao/cgao15@ucsc.edu \\ Gongyu Sun/gosun@ucsc.edu}
+\title{ HW5 Applying Hoare Logic }
+\usepackage{amsmath}
+\begin{document}
+\maketitle
+\leftline {\textbf{CMPS 203}}
+\leftline {On this homework, we worked together for 4 hours.}
+\section{  }
+
+Using Hoare's rules, prove:
+	\[ \{x = y\} x := x + 1; y := y + 1 \{x = y\} \]
+
+	\textbf {Proof:}
+	\begin{align*}
+	WP(c_1, c_2, Q) &= (x := x + 1, WP(y := y+1, x = y)) \\
+				  &= (x := x + 1, x = y + 1) \\
+				  &= (x + 1 = y + 1) \\
+				  &= (x = y)
+	\end{align*}
+	\begin{center}
+	We have P = \{x = y\}  = WP($c_1$, $c_2$, Q)\\
+	Hence we have:
+	 \centerline {$\{x = y\}$ x := x + 1; y := y + 1 $\{x = y\}$ }
+	 Or use the following structure:\\
+	 $$\frac 
+	 	{\frac
+			{\frac
+			{}{\displaystyle \{ x + 1 = y + 1\}x:= x + 1\{x = y + 1\}}Ass
+			\frac
+			{}{\displaystyle \{x = y + 1\}y:= y+ 1\{x = y\} }Ass
+			}
+			{\displaystyle \{x = y\}\Rightarrow \{x + 1 = y + 1\},\ \{x + 1 = y + 1\}\ x := x + 1;\ y := y + 1\{x = y\} }
+			Seq
+		}
+		 {\{x = y\} x := x + 1; y := y + 1 \{x = y\}}
+	 	Conseq$$
+	Therefore we have:\\
+	\centerline {$\{x = y\}$ x := x + 1; y := y + 1 $\{x = y\}$ }
+	\end{center}
+	
+\section{}
+	Using Hoare's rules, prove:
+	 	\[ \{y = z\}\ while\  b\  do\  y := y - x\ \{ \exists k.z = (y + k \ast x)\} \]
+	 \textbf {Proof:}
+	 \begin{center}
+	Let loop = \{while b do y := y - x\}\\
+	We can see that the invariant is\\ I = $\{ \exists k.z = (y + k \ast x)\}$ \\
+	Also, let J = $\{ \exists k.z = ((y - x)+ k \ast x)\}$
+	$$\frac
+		{\frac
+			{\frac
+				{\frac
+					{}
+					{\displaystyle \{ b \land I\} \Rightarrow  \{ b \land J\},\{ b \land J\}\ y := y -x\ \{I\}}\displaystyle Ass
+				}
+				{\displaystyle \{b \land  \exists k.z = (y + k \ast x)\} \ y := y -x\ \{ \exists k.z = (y + k \ast x)\} }\displaystyle Conseq
+			}
+			{\displaystyle \ \{ I \}\ loop\ \{ \neg b \land I\}}While\ \ \ \ \   \{ \neg b \land I\} \Rightarrow \{I\}
+		}
+		{\displaystyle\{y = z\}\ while\  b\  do\  y := y - x\ \{ \exists k.z = (y + k \ast x)\}}
+		Conseq$$
+	Hence we have:
+	\[ \{y = z\}\ while\  b\  do\  y := y - x\ \{ \exists k.z = (y + k \ast x)\} \]
+	\end{center}
+	
+\end{document}

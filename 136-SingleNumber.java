@@ -8,6 +8,7 @@
  */
 public class Solution {
     public int singleNumber(int[] nums) {
+        /*
         Map<Integer, Integer> numsmap = new HashMap<Integer,Integer>();
         int length = nums.length;
         for(int i = 0;i < length;i++){
@@ -22,5 +23,10 @@ public class Solution {
                 return nums[i];
         }
         return 0;
+        */
+        int result = 0,length = nums.length;
+        for(int i = 0;i < length;i++)
+            result ^= nums[i];
+        return result;
     }
 }

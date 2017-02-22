@@ -21,7 +21,8 @@ coding...
 520.Detect Capital  
 292.Nim Game  
 413.Arithmetic Slices  
-448.Find All Numbers Disappeared in an Array
+448.Find All Numbers Disappeared in an Array  
+136.Single Number
 
 
 

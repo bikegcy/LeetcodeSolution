@@ -4,6 +4,7 @@
  * @LeetcodeSolution
  * @First do not use bit manipulation.
  * @Take it into 2 parts:a ^ b, (a & b)<<1 and get the sum of it;
+ */
 public class Solution {
     public int getSum(int a, int b) {
         /*

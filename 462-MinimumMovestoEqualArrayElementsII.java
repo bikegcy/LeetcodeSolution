@@ -6,6 +6,7 @@
  */
 public class Solution {
     public int minMoves2(int[] nums) {
+        /*
         if(nums.length == 0)
             return 0;
         Arrays.sort(nums);
@@ -26,5 +27,13 @@ public class Solution {
             result = result > result2 ? result: result2;
             return result;
         }
+        */
+        Arrays.sort(nums);
+        int front = 0, end = nums.length - 1;
+        int result = 0;
+        while(front < end){
+            result += nums[end--] - nums[front++];
+        }
+        return result;
     }
 }

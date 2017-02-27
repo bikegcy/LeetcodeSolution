@@ -32,7 +32,8 @@ coding...
 462.Minimum Moves to Equal Array Elements II  
 258.Add Digits  
 226.Invert Binary Tree  
-451.Sort Characters By Frequency
+451.Sort Characters By Frequency  
+260.Single Number III
 
 
 

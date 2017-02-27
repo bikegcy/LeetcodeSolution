@@ -3,6 +3,7 @@
  * @cgao15@ucsc.edu
  * @LeetcodeSolution
  * @Use recurtion to do it.
+ * @Use stack structure(BFS)to avoid the use of recurtion.
  */
 /**
  * Definition for a binary tree node.
@@ -14,6 +15,7 @@
  * }
  */
 public class Solution {
+    /*
     public TreeNode invertTree(TreeNode root) {
         if(root == null)
             return null;
@@ -29,5 +31,26 @@ public class Solution {
         root.left = root.right;
         root.right = temp;
         return root;
+    }
+    */
+    public TreeNode invertTree(TreeNode root) {
+        if(root == null)
+            return null;
+        Stack<TreeNode> treestack = new Stack<TreeNode>();
+        treestack.push(root);
+        TreeNode result = root;
+        TreeNode temp = root.left;
+        while(!treestack.isEmpty()){
+            root = treestack.pop();
+            temp = root.left;
+            root.left = root.right;
+            root.right = temp;
+            if(root.left != null)
+                treestack.push(root.left);
+            if(root.right != null)
+                treestack.push(root.right);
+        }
+        return result;
+        
     }
 }

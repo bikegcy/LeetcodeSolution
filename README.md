@@ -33,7 +33,8 @@ coding...
 258.Add Digits  
 226.Invert Binary Tree  
 451.Sort Characters By Frequency  
-260.Single Number III
+260.Single Number III   
+492.Construct the Rectangle
 
 
 

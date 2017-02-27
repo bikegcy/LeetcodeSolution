@@ -29,7 +29,8 @@ coding...
 104.Maximum Depth of Binary Tree  
 371.Sum of Two Integers  
 389.Find the Difference  
-462.Minimum Moves to Equal Array Elements II
+462.Minimum Moves to Equal Array Elements II  
+258.Add Digits
 
 
 

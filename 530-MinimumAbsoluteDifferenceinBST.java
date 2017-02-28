@@ -4,6 +4,7 @@
  * @LeetcodeSolution
  * @First level traverse the tree and record the val.
  * @Then sort the array to find the smallest min.
+ * @New algorithm: Use stack and in-order traverse.
  */
 /**
  * Definition for a binary tree node.
@@ -17,6 +18,7 @@
 import java.util.ArrayList;
 public class Solution {
     public int getMinimumDifference(TreeNode root) {
+        /*
         int min = Integer.MAX_VALUE;
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
         queue.add(root);
@@ -37,6 +39,25 @@ public class Solution {
                 min = result[i + 1] - result[i];
         }
         return min;
-        
+        */
+        int min = Integer.MAX_VALUE;
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        int prev = Integer.MAX_VALUE;
+        while(!stack.isEmpty() || root !=null){
+            if(root != null){
+                stack.push(root);
+                root = root.left;
+            }
+            else{
+                root = stack.pop();
+                if(prev != Integer.MAX_VALUE){
+                    min = (root.val - prev) < min? root.val - prev: min;
+                }
+                else min = min;
+                prev = root.val;
+                root = root.right;
+            }
+        }
+        return min;
     }
 }

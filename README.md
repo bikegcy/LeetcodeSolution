@@ -37,7 +37,8 @@ coding...
 492.Construct the Rectangle  
 506.Relative Ranks  
 283.Move Zeroes  
-530.Minimum Absolute Difference in BST
+530.Minimum Absolute Difference in BST  
+529.Minesweeper
 
 
 

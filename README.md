@@ -38,7 +38,8 @@ coding...
 506.Relative Ranks  
 283.Move Zeroes  
 530.Minimum Absolute Difference in BST  
-529.Minesweeper
+529.Minesweeper  
+167.Two Sum II - Input array is sorted
 
 
 

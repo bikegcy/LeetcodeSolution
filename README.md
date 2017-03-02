@@ -44,7 +44,8 @@ coding...
 455.Assign Cookies  
 453.Minimum Moves to Equal Array Elements  
 347. ]Top K Frequent Elements
-503.Next Greater Element II
+503.Next Greater Element II  
+498.Diagonal Traverse
 
 
 

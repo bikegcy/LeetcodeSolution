@@ -46,7 +46,8 @@ coding...
 347.Top K Frequent Elements
 503.Next Greater Element II  
 498.Diagonal Traverse  
-347.Top K Frequent Elements
+347.Top K Frequent Elements  
+383.Ransom Note
 
 
 

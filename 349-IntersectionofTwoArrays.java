@@ -13,22 +13,19 @@ public class Solution {
         for(int element :nums1){
             numsmap.put(element,numsmap.getOrDefault(element,0) + 1);
         }
-        for(int element:nums2){
-            temp = numsmap.getOrDefault(element,0);
+        int posi = 0;
+        for(int index = 0;index < nums2.length;index++){
+            temp = numsmap.getOrDefault(nums2[index],0);
             if(temp > 0){
+                nums2[posi++] = nums2[index];
                 size++;
-                numsmap.put(element,-1);
+                numsmap.put(nums2[index],-1);
             }
         }
         int[] result = new int[size];
-        for(int index = 0,i = 0;index < nums2.length;index++){
-            temp = numsmap.getOrDefault(nums2[index],0);
-            if(temp < 0){
-                numsmap.put(nums2[index],1);
-                result[i] = nums2[index];
-                i++;
-            }
-                
+        
+        for(int index = 0;index < size;index++){
+            result[index] = nums2[index];
         }
         return result;
     }

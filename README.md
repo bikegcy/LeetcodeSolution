@@ -52,6 +52,7 @@ coding...
 349.Intersection of Two Arrays
 445.Add Two Numbers II  
 387.First Unique Character in a String
+477.Total Hamming Distance
 
 
 

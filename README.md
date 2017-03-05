@@ -50,7 +50,8 @@ coding...
 383.Ransom Note
 404.Sum of Left Leaves
 349.Intersection of Two Arrays
-445.Add Two Numbers II
+445.Add Two Numbers II  
+387.First Unique Character in a String
 
 
 

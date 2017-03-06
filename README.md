@@ -54,7 +54,8 @@ coding...
 387.First Unique Character in a String  
 477.Total Hamming Distance  
 122.Best Time to Buy and Sell Stock II  
-481.Magical String
+481.Magical String  
+171.Excel Sheet Column Number
 
 
 

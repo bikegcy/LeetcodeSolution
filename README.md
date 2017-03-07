@@ -66,7 +66,8 @@ coding...
 454.4Sum II  
 409.Longest Palindrome  
 94.Binary Tree Inorder Traversal  
-401.Binary Watch
+401.Binary Watch  
+217.Contains Duplicate
 
 
 

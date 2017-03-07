@@ -59,7 +59,8 @@ coding...
 237.Delete Node in a Linked List  
 100.Same Tree  
 384.Shuffle an Array  
-357.Count Numbers with Unique Digits
+357.Count Numbers with Unique Digits  
+169.Majority Element
 
 
 

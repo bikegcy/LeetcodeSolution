@@ -14,9 +14,9 @@ public class Solution {
             for(int min = 0;min < 60;min++){
                 count2 = Integer.bitCount(min);
                 if(count1 + count2 == num){
-                    if(min > 10)
-                        temp = Integer.toString(count1) + ":" + Integer.toString(min);
-                    else temp = Integer.toString(count1) + ":0" + Integer.toString(min);
+                    if(min >= 10)
+                        temp = Integer.toString(h) + ":" + Integer.toString(min);
+                    else temp = Integer.toString(h) + ":0" + Integer.toString(min);
                     result.add(temp);
                 }
                 

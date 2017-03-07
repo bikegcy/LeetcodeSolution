@@ -61,7 +61,8 @@ coding...
 384.Shuffle an Array  
 357.Count Numbers with Unique Digits  
 169.Majority Element  
-242.Valid Anagram
+242.Valid Anagram  
+343.Integer Break
 
 
 

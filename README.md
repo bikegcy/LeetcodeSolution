@@ -68,7 +68,8 @@ coding...
 94.Binary Tree Inorder Traversal  
 401.Binary Watch  
 217.Contains Duplicate  
-416.Partition Equal Subset Sum
+416.Partition Equal Subset Sum  
+494.Target Sum
 
 
 

@@ -67,7 +67,8 @@ coding...
 409.Longest Palindrome  
 94.Binary Tree Inorder Traversal  
 401.Binary Watch  
-217.Contains Duplicate
+217.Contains Duplicate  
+416.Partition Equal Subset Sum
 
 
 

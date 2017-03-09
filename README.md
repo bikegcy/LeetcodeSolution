@@ -70,7 +70,8 @@ coding...
 217.Contains Duplicate  
 416.Partition Equal Subset Sum  
 494.Target Sum  
-13.Roman to Integer
+13.Roman to Integer  
+206.Reverse Linked List
 
 
 

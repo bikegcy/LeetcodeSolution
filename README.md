@@ -72,7 +72,8 @@ coding...
 494.Target Sum  
 13.Roman to Integer  
 206.Reverse Linked List  
-392.Is Subsequence
+392.Is Subsequence  
+350.Intersection of Two Arrays II
 
 
 

@@ -74,7 +74,8 @@ coding...
 206.Reverse Linked List  
 392.Is Subsequence  
 350.Intersection of Two Arrays II  
-268.Missing Number
+268.Missing Number  
+421.Maximum XOR of Two Numbers in an Array
 
 
 

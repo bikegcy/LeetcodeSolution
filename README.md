@@ -77,7 +77,8 @@ coding...
 268.Missing Number  
 421.Maximum XOR of Two Numbers in an Array  
 144.Binary Tree Preorder Traversal  
-486.Predict the Winner
+486.Predict the Winner  
+447.Number of Boomerangs
 
 
 

@@ -6,6 +6,7 @@
  */
 public class Solution {
     public int findMinDifference(List<String> timePoints) {
+        /*
         int[] min = new int[timePoints.size()];
         for(int index = 0;index < timePoints.size();index++){
             min[index] = timecal(timePoints.get(index));
@@ -16,6 +17,33 @@ public class Solution {
             int dis = diff(min[index],min[index + 1]);
             if(dis < result)
                 result = dis;
+        }
+        return result;
+        */
+        boolean[] mark = new boolean[24 * 60];
+        int min = 0;
+        int Min = Integer.MAX_VALUE,Max = Integer.MIN_VALUE;
+        for(String time: timePoints){
+            min = timecal(time);
+            if(min < Min)
+                Min = min;
+            if(min > Max)
+                Max = min;
+            if(mark[min])
+                return 0;
+            mark[min] = true;
+        }
+        int result = diff(Min,Max);
+        int prev = Min;
+        for(int index = Min + 1;index < Max + 1;index++){
+            if(!mark[index])
+                continue;
+            else{
+                int dis = diff(prev,index);
+                if(dis < result)
+                    result = dis;
+                prev = index;
+            }
         }
         return result;
         

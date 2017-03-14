@@ -82,7 +82,9 @@ coding...
 539.Minimum Time Difference   
 216.Combination Sum III  
 423. Reconstruct Original Digits from English  
-318.Maximum Product of Word Lengths
+318.Maximum Product of Word Lengths  
+22.Generate Parentheses
+
 
 
 

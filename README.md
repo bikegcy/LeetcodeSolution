@@ -86,7 +86,8 @@ coding...
 22.Generate Parentheses  
 230.Kth Smallest Element in a BST  
 452.Minimum Number of Arrows to Burst Balloons  
-328.Odd Even Linked List
+328.Odd Even Linked List  
+287.Find the Duplicate Number
 
 
 

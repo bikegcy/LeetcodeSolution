@@ -3,6 +3,7 @@
  * @cgao15@ucsc.edu
  * @LEetcodeSolution
  * @Use fast and slow to determine.
+ * @Faster method: use the relationshuip bewteen slow and fast.
  */
 /**
  * Definition for singly-linked list.

@@ -90,7 +90,8 @@ coding...
 287.Find the Duplicate Number  
 141.Linked List Cycle  
 142.Linked List Cycle II  
-378.Kth Smallest Element in a Sorted Matrix
+378.Kth Smallest Element in a Sorted Matrix  
+198.House Robber
 
 
 

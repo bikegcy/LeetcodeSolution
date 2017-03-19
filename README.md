@@ -88,7 +88,9 @@ coding...
 452.Minimum Number of Arrows to Burst Balloons  
 328.Odd Even Linked List  
 287.Find the Duplicate Number  
-141.Linked List Cycle
+141.Linked List Cycle  
+142.Linked List Cycle II  
+378.Kth Smallest Element in a Sorted Matrix
 
 
 

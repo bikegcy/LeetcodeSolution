@@ -1,3 +1,9 @@
+oyu Gao
+ * @cgao15@ucsc.edu
+ * @LeetcodeSolution
+ * @Use 2 pointers
+ * @Reverse the int and compare.
+ */
 public class Solution {
     public boolean isPalindrome(int x) {
         if(x < 0)

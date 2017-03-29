@@ -1,15 +1,10 @@
-/*
- * @Chaoyu Gao
- * @cgao15@ucsc.edu
- * @LeetcodeSolution
- * @Use 2 pointers
- */
 public class Solution {
     public boolean isPalindrome(int x) {
         if(x < 0)
             return false;
         if(x < 10)
             return true;
+        /*
         int bound = 1;
         while(Math.pow(10,bound) <= x){
             bound++;
@@ -32,5 +27,15 @@ public class Solution {
             }
         }
         return true;
+        */
+        int rev = 0;
+        int temp = x;
+        while(x != 0){
+            rev = rev * 10 + x % 10;
+            x /= 10;
+        }
+        if(rev != temp)
+            return false;
+        else return true;
     }
 }

@@ -100,7 +100,8 @@ coding...
 108.Convert Sorted Array to Binary Search Tree  
 125.Valid Palindrome  
 234.Palindrome Linked List  
-9.Palindrome Number
+9.Palindrome Number  
+131.Palindrome Partitioning
 
   
   

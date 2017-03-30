@@ -101,7 +101,8 @@ coding...
 125.Valid Palindrome  
 234.Palindrome Linked List  
 9.Palindrome Number  
-131.Palindrome Partitioning
+131.Palindrome Partitioning  
+5.Longest Palindromic Substring
 
   
   

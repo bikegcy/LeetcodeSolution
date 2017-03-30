@@ -102,7 +102,8 @@ coding...
 234.Palindrome Linked List  
 9.Palindrome Number  
 131.Palindrome Partitioning  
-5.Longest Palindromic Substring
+5.Longest Palindromic Substring  
+214.Shortest Palindrome(no AC)
 
   
   

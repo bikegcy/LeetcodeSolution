@@ -103,7 +103,9 @@ coding...
 9.Palindrome Number  
 131.Palindrome Partitioning  
 5.Longest Palindromic Substring  
-214.Shortest Palindrome(no AC)
+214.Shortest Palindrome(no AC)  
+46.Permutations
+
 
   
   

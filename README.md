@@ -104,7 +104,8 @@ coding...
 131.Palindrome Partitioning  
 5.Longest Palindromic Substring  
 214.Shortest Palindrome(no AC)  
-46.Permutations
+46.Permutations  
+561.Array Partition I
 
 
   
